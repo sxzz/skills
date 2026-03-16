@@ -23,18 +23,6 @@ PLEASE STRICTLY FOLLOW THE BEST PRACTICES FOR SKILL: https://platform.claude.com
 └── AGENTS.md                   # This file
 ```
 
-## Skill Types
-
-### Type 1: Generated Skills
-
-Skills generated from project documentation.
-
-- **Workflow:** Read docs → Understand → Generate skills
-
-### Type 2: Hand-written Skills
-
-Skills written by hand with personal preferences, experience, and best practices.
-
 ## Workflows
 
 ### General Instructions for Generation
