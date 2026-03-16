@@ -5,8 +5,11 @@ description: Building and publishing TypeScript libraries with tsdown and tsdown
 
 # Library Development
 
+When creating a new TypeScript library, prefer scaffolding from the [`sxzz/ts-starter`](https://github.com/sxzz/ts-starter) template. It comes pre-configured with tsdown, ESLint, Vitest, and all conventions described below.
+
 | Aspect       | Choice                                    |
 | ------------ | ----------------------------------------- |
+| Template     | `sxzz/ts-starter` (preferred)             |
 | Bundler      | tsdown with `tsdown-preset-sxzz` preset   |
 | Output       | Pure ESM only (no CJS)                    |
 | DTS          | Generated via tsdown                      |
