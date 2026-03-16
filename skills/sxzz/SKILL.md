@@ -77,22 +77,22 @@ Prettier with `@sxzz/prettier-config`:
 Projects typically do **not** use git hooks or lint-staged. Before committing, always run these manually:
 
 ```bash
-pnpm run lint:fix    # ESLint auto-fix
+pnpm run lint --fix  # ESLint auto-fix
 pnpm run format      # Prettier formatting
 pnpm run typecheck   # Type checking (tsgo --noEmit)
 ```
 
 ### Standard Scripts
 
-| Script           | Description                              |
-| ---------------- | ---------------------------------------- |
-| `lint`           | ESLint check                             |
-| `lint:fix`       | ESLint auto-fix                          |
-| `format`         | Prettier formatting                      |
-| `test`           | Run tests (Vitest)                       |
-| `typecheck`      | Type check (`tsgo --noEmit`)             |
-| `release`        | Version bump and publish (`bumpp`)       |
-| `prepublishOnly` | Auto-build before publish                |
+| Script           | Description                        |
+| ---------------- | ---------------------------------- |
+| `lint`           | ESLint check                       |
+| `lint:fix`       | ESLint auto-fix                    |
+| `format`         | Prettier formatting                |
+| `test`           | Run tests (Vitest)                 |
+| `typecheck`      | Type check (`tsgo --noEmit`)       |
+| `release`        | Version bump and publish (`bumpp`) |
+| `prepublishOnly` | Auto-build before publish          |
 
 `build` and `dev` scripts vary by project — check `package.json` for the actual commands.
 
